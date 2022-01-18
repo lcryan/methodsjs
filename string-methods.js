@@ -46,8 +46,8 @@ console.log(story.includes("Fantastisch"));
 // Knip de vraag van bovenstaande tekst (story) af, zodat alleen het eerste gedeelte overblijft en log dit in de terminal.
 // ---- Verwachte uitkomst: "We vinden de behaalde resultaten werkelijk prachtig."
 
-console.log(story.split("Fantastisch,nietwaar?"));
-
+let string2 = story.slice(0, 53);
+console.log(string2);
 
 /* Opdracht 6 */
 // Maak van onderstaand bedrag een Nederlands bedrag door het volgende te doen:
