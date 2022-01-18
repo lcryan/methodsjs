@@ -10,10 +10,10 @@ console.log(word.length);
 //  Check of het woord "Banaan" langer is dan het woord "Aardappel" en log dit in de terminal.
 // ---- Verwachte uitkomst: false
 
-const fruit = "Banaan";
+/*const fruit = "Banaan";
 const vegetable = "Aardappel";
 
-
+console.log(word.length[fruit] > word.length[vegetable]);*/
 
 /* Opdracht 2 */
 //  Zorg ervoor dat de laatste letter van het woord in fruit en vegetable (hierboven) in de terminal gelogd wordt.
@@ -21,7 +21,10 @@ const vegetable = "Aardappel";
 // ---- Verwachte uitkomst voor fruit: "n"
 // ---- Verwachte uitkomst voor vegetable: "l"
 
+const fruit = "Banaan";
+const vegetable = "Aardappel";
 
+console.log(fruit[5], vegetable[8]);
 
 /* Opdracht 3 */
 //  Haal de spaties aan het begin en eind van onderstaande zin weg en log dit in de terminal
@@ -29,7 +32,7 @@ const vegetable = "Aardappel";
 
 const userInput = "  De kat krabt de krullen van de trap ";
 
-
+console.log(userInput.trim());
 
 /* Opdracht 4 */
 // Check of het woord "Fantastisch" in onderstaande zin voorkomt en log dit in de terminal.
