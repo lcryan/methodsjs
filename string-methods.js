@@ -40,12 +40,13 @@ console.log(userInput.trim());
 
 const story = "We vinden de behaalde resultaten werkelijk prachtig. Fantastisch, nietwaar?"
 
-
+console.log(story.includes("Fantastisch"));
 
 /* Opdracht 5 */
 // Knip de vraag van bovenstaande tekst (story) af, zodat alleen het eerste gedeelte overblijft en log dit in de terminal.
 // ---- Verwachte uitkomst: "We vinden de behaalde resultaten werkelijk prachtig."
 
+console.log(story.split("Fantastisch,nietwaar?"));
 
 
 /* Opdracht 6 */
