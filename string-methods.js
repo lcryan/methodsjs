@@ -58,7 +58,8 @@ console.log(string2);
 
 const price = "$35.59";
 
+const newPrice = price.replace("$","€ ").replace(".",",");
 
-
+console.log(newPrice);
 
 
