@@ -9,9 +9,9 @@ console.log(Math.PI);
 // Tip: de formule is omtrek = diameter * pi
 // ---- Verwachte uitkomst: 12.566370614359172
 
-const diameter = 4;
+const circle = 4;
 
-console.log(diameter * Math.PI);
+console.log(Math.PI * circle);
 
 
 
